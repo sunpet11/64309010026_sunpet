@@ -4,4 +4,49 @@
         <foodname>ข้าวผัดกระเพรา</foodname>
         <price>60</price>
     </thaifood>
+    <thaifood>
+        <foodid>002</foodid>
+        <foodname>ข้าวผัดต้มยำ</foodname>
+        <price>80</price>
+    </thaifood>
+    <thaifood>
+        <foodid>003</foodid>
+        <foodname>ราดหน้า</foodname>
+        <price>160</price>
+    </thaifood>
+    <thaifood>
+        <foodid>004</foodid>
+        <foodname>มาม่าต้มยำ</foodname>
+        <price>40</price>
+    </thaifood>
+    <thaifood>
+        <foodid>005</foodid>
+        <foodname>ผัดไท</foodname>
+        <price>75</price>
+    </thaifood>
+    <thaifood>
+        <foodid>006</foodid>
+        <foodname>ก๋วยเตี๋ยวต้มยำ</foodname>
+        <price>60</price>
+    </thaifood>
+    <thaifood>
+        <foodid>007</foodid>
+        <foodname>ก๋วยเตี๋ยวเรือ</foodname>
+        <price>70</price>
+    </thaifood>
+    <thaifood>
+        <foodid>008</foodid>
+        <foodname>ก๋วยเตี๋ยวน้ำใส</foodname>
+        <price>50</price>
+    </thaifood>
+    <thaifood>
+        <foodid>009</foodid>
+        <foodname>ข้าวเหนียวไก่</foodname>
+        <price>30</price>
+    </thaifood>
+    <thaifood>
+        <foodid>010</foodid>
+        <foodname>ข้าวหมูกรอบ</foodname>
+        <price>60</price>
+    </thaifood>
 </Food>

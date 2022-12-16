@@ -1,0 +1,84 @@
+{
+    "game": [
+      {
+        "id": 1,
+        "Group": "Shooting",
+        "Poster": "1.jpg",
+        "Title": "Red Dead Redemption 2",
+        "property": "เกม Open World แนวคาวบอย ที่มีงานสร้างและกราฟิกสุดประณีต",
+        "year": 2018 
+      },
+      {
+        "id": 2,
+        "Group": "Action,Stealth",
+        "Poster": "2.jpg",
+        "Title": "Ghost of Tsushima",
+        "property": "เกม Open World แนวคาวบอย ที่มีงานสร้างและกราฟิกสุดประณีต",
+        "year": 2021 
+      },
+      {
+        "id": 3,
+        "Group": "Shooting",
+        "Poster": "3.jpg",
+        "Title": "Grand Theft Auto V",
+        "property": "ภาคล่าสุดของตำนานเกม Open World กลับมาอย่างสุดอลังการ",
+        "year": 2015 
+      },
+      {
+        "id": 4,
+        "Group": "RPG",
+        "Poster": "4.jpg",
+        "Title": "Assassin's Creed Odyssey",
+        "property": "สนุกกับเกม RPG ที่ให้คุณได้ต่อกรกับสัตว์ประหลาดในตำนาน",
+        "year": 2018 
+      },
+      {
+        "id": 5,
+        "Group": "Adventure",
+        "Poster": "5.jpg",
+        "Title": "The Legend of Zelda : Breath of the Wild",
+        "property": "เออกผจญภัยในโลกที่ล่มสลาย กับสุดยอดเกมโลกเปิด",
+        "year": 2018 
+      },
+      {
+        "id": 6,
+        "Group": "Racing, Adventure",
+        "Poster": "6.jpg",
+        "Title": "Forza Horizon 5",
+        "property": "รับบทนักซิ่งที่แข่งรถไปพร้อมกับสำรวจดินแดนโบราณในเม็กซิโก",
+        "year": 2019 
+      },
+      {
+        "id": 7,
+        "Group": "Action",
+        "Poster": "7.jpg",
+        "Title": "Horizon Zero Dawn ",
+        "property": "ล่าหุ่นยนต์ไดโนเสาร์และผจญภัยในโลกหลังอารยธรรมที่ล่มสลาย",
+        "year": 2020 
+      },
+      {
+        "id": 8,
+        "Group": "Shooting",
+        "Poster": "8.jpg",
+        "Title": "Just Cause 4",
+        "property": "ต่อต้านผู้นำเผด็จการ ด้วยเกมแนว Action Open World สุดมัน",
+        "year": 2021 
+      },
+      {
+        "id": 9,
+        "Group": "Action",
+        "Poster": "9.jpg",
+        "Title": "Tribes of Midgard",
+        "property": "เกมออนไลน์สไตล์ Tower Defense ที่เล่นกับเพื่อนจะยิ่งเพลิน",
+        "year": 2022 
+      },
+      {
+        "id": 10,
+        "Group": "Monster Hunter Rise",
+        "Poster": "10.jpg",
+        "Title": "Red Dead Redemption 2",
+        "property": "เกมไล่ล่ามอนสเตอร์บน Nintendo ที่ผสมผสานแอคชั่นสุดเร้าใจ",
+        "year": 2022 
+      }
+    ]
+  }

@@ -13,9 +13,13 @@
   <style>
     .btn {
       margin: 20px 5px 20px 0px;
-      background-color: blue;
-      color: white;
+      background-color: rgba(255, 187, 0, 0.808);
+      color: rgb(0, 0, 0);
       padding: 10px;
+    }
+    .btn1 {
+      width :500 ;
+      height:295
     }
   </style>
 
@@ -24,10 +28,11 @@
 
 <body onload="getAjex()">
   <div class="container">
+    <div class="container" id="display"></div>
     <button class="btn" onclick="prev()">ก่อนหน้า</button>
     <button class="btn" onclick="next()">ถัดไป</button>
   </div>
-  <div class="container" id="display"></div>
+  
 
   <script>
     let xhttp = new XMLHttpRequest();
@@ -39,9 +44,10 @@
       xhttp.onload = function () {
         let obj = JSON.parse(this.responseText);
         let temp = '';
+        
         test = obj.length
         temp +=
-          '<thead class="table-dark">'
+          '<thead class="table-warning">'
           + '<th>#</th>'
           + '<th>Picture</> '
           + '<th>movieName</th>'
@@ -49,6 +55,7 @@
           + '<th>director</>'
           + '<th>category</th>'
           + '<th>trailer</th>'
+          //+ '<th>review</th>'
           + '<th>average</th>'
           + '</thead > '
           + '<tr>'
@@ -59,9 +66,10 @@
           + '<td>' + obj[i].director + '</td>'
           + '<td>' + obj[i].category + '</td>'
           + '<td>' + '<iframe width="500" height="295" src="' + obj[i].trailer + '"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + '</td>'
+          //+ '<td  >' +'  '+ obj[i].review.review + ''+ '</td>'
           + '<td>' + obj[i].review.score.average + '</td>'
           + '</tr>'
-          + '<tfoot class="table-dark">'
+          + '<tfoot class="table-warning">'
           + '<th>#</th>'
           + '<th>Picture</> '
           + '<th>movieName</th>'
@@ -69,9 +77,10 @@
           + '<th>director</>'
           + '<th>category</th>'
           + '<th>trailer</th>'
+          //+ '<th>review</th>'
           + '<th>average</th>'
           + '</tfoot > '
-        document.getElementById('display').innerHTML = '<table class="table table-bordered">' + temp + '</table>'
+        document.getElementById('display').innerHTML = '<table class="table table-warning">' + temp + '</table>'
       }
     }
     function next() {

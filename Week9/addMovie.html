@@ -2,74 +2,127 @@
 <html lang="en">
   <head>
     <title>Title</title>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-    <form id="myForm">
-        <div class="row">
-            <div class="col-5">
-                <label>MovieName</label>
-                <input type="text" id="MovieName" class="form-control">
+      <div class="container">
+        <form id="myForm">
+            <div class="row">
+                <div class="col-8">
+                    <label>MovieName</label>
+                    <input type="text"  id="movieName"  class="form-control">      
+                </div>
+                <div class="col-4">
+                    <label>MovieLength</label>
+                    <input type="text"  id="movieLength"  class="form-control">  
+                </div>
             </div>
-            <div class="col-5">
-                <label>MovieLength</label>
-                <input type="text" id="MovieLength" class="form-control">
+            <div class="row">
+                <div class="col-8">
+                    <label>director</label>
+                    <input type="text"  id="director"  class="form-control">  
+                </div>
+                <div class="col-4">
+                    <label>category</label>
+                    <input type="text"  id="category"  class="form-control">  
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-8">
+                    <label>picture</label>
+                    <input type="text"  id="picture"  class="form-control">  
+                </div>
+                <div class="col-4">
+                    <label>trailer</label>
+                    <input type="text"  id="trailer"  class="form-control">  
+                </div>
             </div>
-            <div class="col-5">
-                <label>director</label>
-                <input type="text" id="director" class="form-control">
+            <div class="row">
+                <div class="col-12">
+                    <label>review</label>
+                    <textarea  id="review" class="form-control"></textarea>
+                </div>
             </div>
-            <div class="col-3">
-                <label>category</label>
-                <input type="text" id="category" class="form-control">
+            <div class="row">
+                <div class="col" >
+                    <label>score</label>
+                </div>
             </div>
-            <div class="col-5">
-                <label>picture</label>
-                <input type="text" id="picture" class="form-control">
+            <div class="row">
+                <div class="col">
+                    <label>screenPlay</label>
+                    <input type="text"  id="screenPlay"  class="form-control">  
+                </div>
+                <div class="col">
+                    <label>playing</label>
+                    <input type="text"  id="playing"  class="form-control">  
+                </div>
+                <div class="col">
+                    <label>music</label>
+                    <input type="text"  id="music"  class="form-control">  
+                </div>
+                <div class="col">
+                    <label>actorSkills</label>
+                    <input type="text"  id="actorSkills"  class="form-control">  
+                </div>
+                <div class="col">
+                    <label>graphics</label>
+                    <input type="text"  id="graphics"  class="form-control">  
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col">
+                    <input type="button" class="btn btn-dark" value="Submit" onclick="add()">
+
+                </div>
             </div>
-            <div class="col-5">
-                <label>trailer</label>
-                <input type="text" id="trailer" class="form-control">
-            </div>
-            <div class="col-5">
-                <label>trailer</label>
-                <input type="text" id="trailer" class="form-control">
-            </div>
-            <div class="col-10">
-                <label>review</label>
-                <input type="text" id="review" class="form-control">
-            </div>
-            <div class="col-3">
-                <label>screenPlay</label>
-                <input type="text" id="screenPlay" class="form-control">
-            </div>  
-            <div class="col-3">
-                <label>playing</label>
-                <input type="text" id="playing" class="form-control">
-            </div>
-            <div class="col-3">
-                <label>music</label>
-                <input type="text" id="music" class="form-control">
-            </div>
-            <div class="col-3">
-                <label>actorSkills</label>
-                <input type="text" id="actorSkills" class="form-control">
-            </div>
-            <div class="col-3">
-                <label>graphics</label>
-                <input type="text" id="graphics" class="form-control">
-            </div>
-        </div>
-   
-    </form>
-    </div>
+        </form>        
+      </div>
+      <script>
+        function add(){
+           let obj ={
+            "id":"",
+            "movieName": document.forms['myForm']['movieName'].value,
+            "movieLength": document.forms['myForm']['movieLength'].value,
+            "director": document.forms['myForm']['director'].value,
+            "category": document.forms['myForm']['category'].value,
+            "picture": document.forms['myForm']['picture'].value,
+            "trailer": document.forms['myForm']['trailer'].value,
+            "review":{
+                 "review": document.forms['myForm']['review'].value,
+                 "score":{
+                      "screenPlay": Number(document.forms['myForm']['screenPlay'].value),
+                      "playing": Number(document.forms['myForm']['playing'].value),
+                      "music": Number(document.forms['myForm']['music'].value),
+                      "actorSkills": Number(document.forms['myForm']['actorSkills'].value),
+                      "graphics": Number(document.forms['myForm']['graphics'].value),
+                      "average": null
+                 }
+            }          
+           };
+           
+           obj.review.score.average = (obj.review.score.screenPlay+obj.review.score.playing+obj.review.score.music+obj.review.score.actorSkills+obj.review.score.graphics)/5;
+           console.log(obj);
+           
+           let text = JSON.stringify(obj);
+           console.log("นี่คือข้อความ : ",text);
+
+           let xhr = new XMLHttpRequest();
+           xhr.open("POST","http://localhost:3000/movieReview");
+           xhr.setRequestHeader("Content-Type","application/json");
+           xhr.send(text);
+
+        }
+        
+      </script>
+  
+    
   </body>
 </html>
